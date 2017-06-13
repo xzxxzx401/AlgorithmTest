@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\2动态规划">
+      <UniqueIdentifier>{4abd0bba-8239-42a6-af5e-b85d552da0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1分治法">
+      <UniqueIdentifier>{61f47221-0dc5-4d5c-ab2b-ddef7d447609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3贪心">
+      <UniqueIdentifier>{4b7640d3-5ddd-455e-9680-37277df6e064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4回溯">
+      <UniqueIdentifier>{4ded161e-29ea-4525-9523-4b5b109917b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -20,20 +32,44 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="二分搜索.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\1分治法</Filter>
     </ClCompile>
     <ClCompile Include="归并排序.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\1分治法</Filter>
     </ClCompile>
     <ClCompile Include="快速排序.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\1分治法</Filter>
     </ClCompile>
     <ClCompile Include="线性时间选择.c">
+      <Filter>源文件\1分治法</Filter>
+    </ClCompile>
+    <ClCompile Include="01背包.c">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵连乘.c">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最大字段和.c">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子序列.c">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="kruskal.cpp">
+      <Filter>源文件\3贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="单源最短路.c">
+      <Filter>源文件\3贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="哈夫曼编码.cpp">
+      <Filter>源文件\3贪心</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="n皇后.cpp">
+      <Filter>源文件\4回溯</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

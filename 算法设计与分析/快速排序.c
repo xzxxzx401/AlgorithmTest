@@ -3,7 +3,7 @@
 //无返回值，返回后a数组有序
 
 #include<time.h>
-int Partion(int *a, int l, int r)//随机取点并划分
+int QsortPartion(int *a, int l, int r)//随机取点并划分
 {
 	srand(time(0));
 
@@ -32,7 +32,7 @@ void Qsort(int *a, int l, int r)//快速排序
 {
 	if(l>=r) return;
 
-	int pos=Partion(a, l, r);//划分
+	int pos=QsortPartion(a, l, r);//划分
 
 	Qsort(a, l, pos);//排划分点左侧
 	Qsort(a, pos+1, r);//右侧
