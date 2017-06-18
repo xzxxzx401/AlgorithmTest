@@ -32,34 +32,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="二分搜索.c">
-      <Filter>源文件\1分治法</Filter>
-    </ClCompile>
-    <ClCompile Include="归并排序.c">
-      <Filter>源文件\1分治法</Filter>
-    </ClCompile>
-    <ClCompile Include="快速排序.c">
-      <Filter>源文件\1分治法</Filter>
-    </ClCompile>
-    <ClCompile Include="线性时间选择.c">
-      <Filter>源文件\1分治法</Filter>
-    </ClCompile>
-    <ClCompile Include="01背包.c">
-      <Filter>源文件\2动态规划</Filter>
-    </ClCompile>
-    <ClCompile Include="矩阵连乘.c">
-      <Filter>源文件\2动态规划</Filter>
-    </ClCompile>
-    <ClCompile Include="最大字段和.c">
-      <Filter>源文件\2动态规划</Filter>
-    </ClCompile>
-    <ClCompile Include="最长公共子序列.c">
-      <Filter>源文件\2动态规划</Filter>
-    </ClCompile>
     <ClCompile Include="kruskal.cpp">
-      <Filter>源文件\3贪心</Filter>
-    </ClCompile>
-    <ClCompile Include="单源最短路.c">
       <Filter>源文件\3贪心</Filter>
     </ClCompile>
     <ClCompile Include="哈夫曼编码.cpp">
@@ -70,6 +43,39 @@
     </ClCompile>
     <ClCompile Include="n皇后.cpp">
       <Filter>源文件\4回溯</Filter>
+    </ClCompile>
+    <ClCompile Include="图着色.cpp">
+      <Filter>源文件\4回溯</Filter>
+    </ClCompile>
+    <ClCompile Include="TSP.cpp">
+      <Filter>源文件\4回溯</Filter>
+    </ClCompile>
+    <ClCompile Include="01背包.cpp">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="矩阵连乘.cpp">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最大字段和.cpp">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="最长公共子序列.cpp">
+      <Filter>源文件\2动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="二分搜索.cpp">
+      <Filter>源文件\1分治法</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp">
+      <Filter>源文件\1分治法</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.cpp">
+      <Filter>源文件\1分治法</Filter>
+    </ClCompile>
+    <ClCompile Include="线性时间选择.cpp">
+      <Filter>源文件\1分治法</Filter>
+    </ClCompile>
+    <ClCompile Include="单源最短路.cpp">
+      <Filter>源文件\3贪心</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

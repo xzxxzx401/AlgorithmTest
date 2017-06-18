@@ -115,19 +115,21 @@
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="01背包.c" />
+    <ClCompile Include="01背包.cpp" />
     <ClCompile Include="kruskal.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="n皇后.cpp" />
-    <ClCompile Include="二分搜索.c" />
-    <ClCompile Include="单源最短路.c" />
+    <ClCompile Include="TSP.cpp" />
+    <ClCompile Include="二分搜索.cpp" />
+    <ClCompile Include="单源最短路.cpp" />
     <ClCompile Include="哈夫曼编码.cpp" />
-    <ClCompile Include="归并排序.c" />
-    <ClCompile Include="快速排序.c" />
-    <ClCompile Include="最大字段和.c" />
-    <ClCompile Include="最长公共子序列.c" />
-    <ClCompile Include="矩阵连乘.c" />
-    <ClCompile Include="线性时间选择.c" />
+    <ClCompile Include="图着色.cpp" />
+    <ClCompile Include="归并排序.cpp" />
+    <ClCompile Include="快速排序.cpp" />
+    <ClCompile Include="最大字段和.cpp" />
+    <ClCompile Include="最长公共子序列.cpp" />
+    <ClCompile Include="矩阵连乘.cpp" />
+    <ClCompile Include="线性时间选择.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

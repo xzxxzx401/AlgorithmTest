@@ -27,4 +27,6 @@ void Dijkstra(int (*mp)[100], int n, int *dis, int s);
 void Kruskal(int n, int m);
 
 int NQueen(int n);
+int Color(int n, int m, int c);
+int TSP(int n, int m);
 

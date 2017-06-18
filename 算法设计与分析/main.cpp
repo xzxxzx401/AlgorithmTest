@@ -100,17 +100,17 @@ int main()
 	*/
 	#pragma endregion
 
-	#pragma region 零一背包
-	/*
-	int n,V;scanf("%d", &n);
+	#pragma region Ol背包
+
+	/*int n, V;scanf("%d", &n);
 	int weight[100], value[100];
 	for(int i=1;i<=n;i++)
 	{
-	scanf("%d%d", &(weight[i]), &(value[i]));
+		scanf("%d%d", &(weight[i]), &(value[i]));
 	}
 	scanf("%d", &V);
-	printf("%d\n", Knapsack(weight, value, n, V));
-	*/
+	printf("%d\n", Knapsack(weight, value, n, V));*/
+
 	#pragma endregion
 
 	#pragma region 哈夫曼
@@ -167,8 +167,16 @@ int main()
 	//printf("%d\n", NQueen(n));
 	#pragma endregion
 
+	#pragma region m染色
+//int n, m, c;scanf("%d%d%d", &n, &m, &c);
+//printf("%d\n", Color(n, m, c));
+	#pragma endregion
 
-
+	#pragma region TSP问题
+	//int n, m;scanf("%d%d", &n, &m);
+	//
+	//printf("%d\n", TSP(n, m));
+	#pragma endregion
 
 	system("pause");
 	return 0;

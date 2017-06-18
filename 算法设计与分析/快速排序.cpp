@@ -3,6 +3,7 @@
 //无返回值，返回后a数组有序
 
 #include<time.h>
+#include<stdlib.h>
 int QsortPartion(int *a, int l, int r)//随机取点并划分
 {
 	srand(time(0));
